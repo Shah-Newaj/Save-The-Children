@@ -16,12 +16,5 @@ driver.find_element(By.XPATH,"//input[@id='tbxLgnUserName']").send_keys("Shyamal
 # driver.find_element(By.ID,"password").send_keys("12345678")
 driver.find_element(By.XPATH,"//input[@id='btnLogin']").click()
 
-# act_title = driver.title
-# exp_title = "ASSET MANAGEMENT SYSTEM"
-
-# if act_title == exp_title:
-#     print("Login test passed")
-# else:
-#     print("Login test failed")
 time.sleep(3)
 driver.close()
